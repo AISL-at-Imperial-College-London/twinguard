@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.venv/
+venv/
+.env
+
+# Rerun workspaces and audit reports (never written into artifacts/)
+/runs/
+/reproducibility/reports/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.history/
+.vscode/
+.idea/
+.matplotlib/

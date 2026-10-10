@@ -1,0 +1,13 @@
+{
+  "configuration": {
+    "primary_dir": "artifacts/cstr/primary_evaluation",
+    "bootstrap_dir": "artifacts/cstr/bootstrap_ensemble",
+    "conformal_dir": "artifacts/cstr/conformal_calibration",
+    "output_dir": "artifacts/cstr/primary_decision_audit"
+  },
+  "hard_freeze": true,
+  "CERTIFICATION_artifacts_modified": false,
+  "audit_basis": "artifact accounting, filesystem ordering, key isolation, exact envelope/decision/truth reconstruction, split/hash checks, and descriptive frozen-score diagnostics",
+  "interpretation": "post-hoc diagnosis only; no recalibration or alternative decision evaluation",
+  "verdict": "FROZEN primary certification RESULT REPRODUCED"
+}
